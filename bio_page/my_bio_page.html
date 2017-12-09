@@ -1,0 +1,121 @@
+<!-- HTML boilerplate code -->
+<!DOCTYPE html>
+<html>
+	<head>
+    	<title>
+      	Chris Guthrie Bio
+    	</title>
+      <link href="reset.css" type="text/css" rel="stylesheet">	
+      <!-- bootstrapcdn stylesheet -->
+      <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
+      <!-- Links this HTML to a CSS file my_bio_style.css -->
+      <link href="my_bio_style.css" type="text/css" rel="stylesheet">
+ 	</head>
+	<body>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header" >
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" id="landing-link" href="http://www.chrisg.rocks">my Website</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Favorite Links<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="https://www.google.com" target="_blank">Google Search</a></li>
+                <li><a href="https://www.scottish-country-dancing-dictionary.com/" target="_blank">Scottish Country Dancing</a></li>
+                <li><a href="https://www.candystore.com/" target="_blank">Way too much candy!</a></li>
+              </ul>
+            </li>
+            <!-- <li><a href="#">New Page</a></li>
+            <li><a href="#">Another Page</a></li> -->
+          </ul>
+        </div>
+      <!-- navbar-collapse -->
+      </div>
+    <!-- container-fluid -->
+    </nav>
+
+    <!-- Our rows function in containers (grid created). -->
+    <div class="container-fluid">
+      <!-- Our columns function in rows. -->
+      <div class="row">
+        <!-- Columns have 12 areas of width to work with. -->
+        <!-- (9/12) of screen -->
+        <div class="col-md-12" id="col-12">
+          <header>
+            <h1>Christopher D Guthrie</h1>
+          </header>
+            <section id="bio-main">   
+              <figure>
+                <img id="bio-image" src="140px-Bear_Square.jpg" alt="Christopher D Guthrie">
+                <figcaption id="f1-caption">On a bad morning...</figcaption>
+              </figure>
+              <p> 
+                Data Analyst and Project Manager with expertise in application support, business analysis, and project management.  Excellent customer service and analytical skills; enjoys working with people, but also researching and resolving technical issues.  Strengths are organizing, prioritizing, planning, and problem solving.  Effective as a member of a team or as an individual working with little to no work direction.  Extensive experience with Oracle databases, Oracle's PL/SQL, SQL (structured query language), data analytics and visualization, and UNIX/Linux OS and scripting.  
+              </p>
+              <p>
+                Outside of work, there is golfing, hiking, Pilates, Scottish Country dancing, and bookstores.
+              </p>        
+            </section>
+        <!-- div - col-12 end -->  
+        </div>
+      <!-- div - row end -->
+      </div>
+
+      <!-- Our columns function in rows. -->
+      <div class="row">
+        <!-- Columns have 12 areas of width to work with. -->
+        <!-- (6/12) of screen -->
+        <div class="col-md-6" id="col-6L">
+          <h3>Favorite Links:</h3>
+          <ul id="favs">
+            <li><a href="https://www.google.com" target="_blank">Google Search</a></li>
+            <li><a href="https://www.scottish-country-dancing-dictionary.com/" target="_blank">Scottish Country Dancing</a></li>
+            <li><a href="https://www.candystore.com/" target="_blank">Way too much candy!</a></li>
+          </ul>
+        <!-- div - col-6 end -->  
+        </div>
+
+        <!-- (6/12) of screen -->
+        <div class="col-md-6" id="col-6R">      
+          <table border="1"> 	
+            <thead>
+              <tr>
+                <th colspan="4">Other things I enjoy...</th>
+              </tr>
+              <br>
+	            <tr>
+	              <th>Movies</th>
+                <th>Television</th>
+	              <th>Books </th>
+	              <th>Hobbies</th>
+	            </tr>
+	          </thead>
+            <tbody>
+              <tr><td>Men in Tights</td><td>Daily Show</td><td>Founding Mothers</td><td>Hiking</td></tr>
+              <tr><td>Tremors</td><td>Walking Dead</td><td>Thief of Time</td><td>Golf</td></tr>
+              <tr><td>Miracle on 34th Street</td><td>Moutain Men</td><td>Battlefield Earth</td><td>Scottish Dance</td></tr>
+            </tbody>
+          </table>
+        <!-- div - col-6 end -->  
+        </div>
+      <!-- div - row end -->
+      </div>
+    <!-- div container end -->
+    </div>
+
+    <!-- jquery file  -->
+    <script type="text/javascript" src="jquery-3.2.1.js"></script>
+    <!-- bootstrap javascript file -->
+    <script type="text/javascript" src="bootstrap.js"></script>
+ 	</body>
+</html>

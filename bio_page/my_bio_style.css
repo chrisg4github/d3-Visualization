@@ -1,0 +1,131 @@
+/* my_bio_style.css*/
+
+body{
+  font: normal 14px Georgia, Times New Roman, Times, serif;
+  color: #333333;
+  background-color: #FFFAFF;  /*#f2ffe6 #C1E1A6 #efeee7 #e6fffa #e6fff2*/
+  }
+
+.navbar-default{
+  font-family: sans-serif, Georgia, Times New Roman, Times, serif;
+  font-size: 14px;
+  background-color: #ffffff;
+  margin-bottom: 0;
+}
+
+#landing-link{
+  font-family: Times New Roman, Times, Georgia, serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #FFF;
+  background-color: #ff80ff;  /*#47d2b8*/
+}
+
+
+header{
+  background-color: #e6e6e6; /*#e6e6e6 #333333 #ffffff*/
+  margin-top: 0;
+}
+
+h1{
+  text-align: center;
+  color: #333333;  /*#ccffe5 #fafafa*/
+  font-size: 28px;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  }
+
+h3{
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  color : #999999; /* #FFD9FF #00cc7a*/ 
+  margin-top: 2%;
+  margin-left: 0%;
+  margin-bottom: 0%;*/
+  
+  }
+
+#bio-image{
+  border: #000000 2px solid;
+  float: left;
+  margin-top: 0;
+  margin-left: 4%;
+  margin-right: 2%;
+  padding: 0%;
+  }
+
+#f1-caption{
+  font-size: 14px;
+  float: left;
+  margin-left: -152px;
+  margin-right: 25px;
+  margin-top: 130px;
+  padding: 0%;
+}
+#bio-main{
+  float: left;
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom: 0;
+  padding: 8px;
+  font-size: 16px;
+  font-family: Helvetica, Arial, sans-serif; 
+  }
+
+#col-6L{
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 8px;
+  font-size: 14px;
+  font-family: Helvetica, Arial, sans-serif; 
+  }
+
+
+  #col-6R{
+  margin-top: 0;
+  padding: 8px;
+  font-size: 14px;
+  font-family: Helvetica, Arial, sans-serif; 
+  }
+
+
+#favs{
+  border: 2px solid;
+  border-color: #d9d9d9;  /*#efeee7 #e6255a #00cc7a #00ff7b #00cc7a*/
+  list-style-position:inside;
+  width: 200px;
+  height:60px;
+  margin: auto;
+  padding: 5px; 
+  }
+
+    
+table{  
+  color: #333; /* Lighten up font color */
+  font-family: Helvetica, Arial, sans-serif; 
+  /*width: 650px; */
+  border-collapse: 
+  collapse; border-spacing: 0; 
+  /*margin-top: 0;
+  margin-left: 0;*/
+  margin: auto;
+  }
+
+td, th{border: 1px solid #CCC; height: 30px; } 
+
+th{  
+  background: #e6e6e6;  /*#ccffe5 #F3F3F3*/
+  font-weight: bold; 
+  font-size: 16px;
+  text-align: center;
+  }
+
+td{  
+   background: #FFFFFF;  /*#e6fff2 #FAFAFA #e6ffe6 #e6fff5*/
+   text-align: center; 
+   padding: 2px;
+  }
+
+
