@@ -1,2 +1,5 @@
 # d3-Visualizations
-This is for d3 visualizations.
+
+d3 visualization project.
+
+- d3, HTML, CSS, JavaScript, Jquery
